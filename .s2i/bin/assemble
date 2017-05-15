@@ -25,6 +25,7 @@ echo "---> Installing application source ..."
 mv /tmp/src/* ./
 
 echo "---> Building custom Ruby application from source $(date) ..."
+echo "Build date: $(date)" > ./built.html
 if [ -f Gemfile ]; then
   ADDTL_BUNDLE_ARGS=""
   if [ -f Gemfile.lock ]; then
