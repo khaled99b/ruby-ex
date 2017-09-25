@@ -190,8 +190,7 @@ p {
   margin: 0 0 2em;
   text-align: justify;
 }
-p + h2 {
-  margin-top: 2em;
+p + h2 {  margin-top: 2em;
 }
 html {
   background: #f5f5f5;
@@ -226,7 +225,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift Powered by Azure by Rezayat!!!</h1>
+            <h1>Welcome to your Ruby application on OpenShift</h1>
           </hgroup>
 
 
